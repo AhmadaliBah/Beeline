@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Druk";
+  src: url("../assets/FontsFree-Net-Druk-Wide-Bold.ttf");
+}
+
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.router__1 {
+  line-height: 14px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.router__2 {
+  line-height: 14px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #bebebe;
+}
+
+.router__1:hover,
+.router__2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.router i {
+  font-size: 8px;
+}
+
+.router {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.tariflar {
+  padding-top: 40px;
+}
+
+.tariflar__title {
+  font-family: "Druk";
+  font-weight: 700;
+  color: #272727;
+  font-size: 24px;
+}
+
+.item1 {
+  background-color: #000000;
+  color: #fff;
+  line-height: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.tariflar__item {
+  line-height: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 1px solid #bebebe;
+  cursor: pointer;
+}
+
+.tariflar__item:hover {
+  border: 1px solid #000000;
+}
+
+.tariflar__items {
+  display: flex;
+  width: 620px;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.hammasi__title {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.hammasi__zor {
+  padding-top: 30px;
+}
+
+.tariflar__btn {
+  color: #2489d8;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(4 32 61 / 12%);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tariflar__btn:hover {
+  color: #559cd4;
+}
+
+.tariflar__arxivi {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.router1 {
+  width: 200px;
+}
+
+.internet__title {
+  padding-top: 50px;
+}
+
+.barcha__internet {
+  padding: 8px 16px;
+  background-color: #ffd600;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgb(176 147 0 / 24%);
+  color: #514400;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.barcha__internet:hover {
+  background-color: #fae57a;
+}
+
+.barcha {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__next-btn-wrapper {
+  display: none;
+}
+
+.alice-carousel__dots-item {
+  background-color: #A1A1A1 !important;
+}
+
+.alice-carousel__dots-item.__active{
+    background-color: #FFC800 !important;
+}
+
+.paketlar1{
+  margin-right: 20px;
+}
+
+.status1{
+  height: 1350px;
+}
+
+.oson{
+  height: 760px;
+}
+
+.boshqalar{
+  height: 900px;
+}
+
+.tariflar__link{
+  display: flex;
+  justify-content: center;
+}
