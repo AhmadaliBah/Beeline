@@ -1,0 +1,79 @@
+.yangiliklar__props{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    height: 150px;
+    max-width: 1080px;
+    margin-bottom: 20px;
+}
+
+.yangiliklar__props-title{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.yangiliklar__props-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.koproq{
+    padding: 12px 22px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.left{
+    width: 70%;
+}
+
+.right{
+    width: 30%;
+    padding-top: 77px;
+    padding-left: 20px;
+}
+
+.sides{
+    display: flex;
+    align-items: flex-start;
+}
+
+.ul1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul1 li{
+    padding: 10px 16px;
+    border: 1px solid #B7B7B7;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.ul1 li:hover{
+    border: 1px solid #000;
+}
+
+.chakra__btn{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;  
+}
+
+.ul2{
+    display: flex;
+    padding-top: 20px;
+    width: 170px;
+    justify-content: space-between;
+}

@@ -146,11 +146,15 @@
 }
 
 .alice-carousel__dots-item {
-  background-color: #A1A1A1 !important;
+  background-color: lightgray !important;
 }
 
 .alice-carousel__dots-item.__active{
-    background-color: #FFC800 !important;
+  background-color: #ffd600 !important;
+}
+
+.alice-carousel__dots{
+  margin-top: 10px !important;
 }
 
 .paketlar1{

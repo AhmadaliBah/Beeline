@@ -27,12 +27,15 @@ import Bolajon from '../assets/images/bolajon.png'
 import Welcome from '../assets/images/welcome.png'
 import Senanta from '../assets/images/senanta.png'
 import Money from '../assets/icons2/money.svg'
+import { Link } from 'react-router-dom'
 
 const TariflarComp = () => {
     return (
         <div>
             <div className="router">
-                <h5 className="router__1">Bosh sahifa</h5>
+                <Link to={'/'}>
+                    <h5 className="router__1">Bosh sahifa</h5>
+                </Link>
                 <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
                 <h5 className="router__2">Tariflar</h5>
             </div>

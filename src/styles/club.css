@@ -1,0 +1,142 @@
+.clubprops{
+    background-color: white;
+    padding: 15px 21px;
+    border-radius: 15px;
+    position: relative;
+    height: 350px;
+}
+
+.club__props{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+
+.club__props-title{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.club__props-text{
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px 0;    
+}
+
+.club-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.club-date a{
+    font-weight: 400;
+    font-size: 13px;
+    color: #4074C1;
+    text-decoration: none;
+    border-left: 2px solid #4074C1;
+    padding-left: 10px;
+}
+
+.club-date a:hover{
+    border-left: 2px solid #ffc800;
+    color: #ffc800;
+}
+
+.hamkorlar{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+
+.hamkorlar__props-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hamkorlar__props{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #f7d145;
+    height: 380px;
+    position: relative;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.hamkorlar__props:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+}
+
+.hamkorlar__titles-box{
+    padding: 20px;
+}
+
+.hamkorlar__props-date{
+    font-size: 15px;
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.hamkorlar__props-title{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hamkorlar__props-title:hover{
+    color: #ffd600;
+}
+
+.hamkorlar__props-btn{
+    padding: 8px 24px;
+    background-color: #ffd600;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hamkorlar__btn-box{
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 15px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.hamkorlar__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 80px 0 40px 0;
+    text-align: center;
+}
+
+.hamkorlar__btn{
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #ffd600;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+
+.hamkorlar__btn:hover{
+    opacity: 0.7;
+}

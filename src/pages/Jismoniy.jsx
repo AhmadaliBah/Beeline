@@ -20,14 +20,24 @@ return (
     <div className='jismoniy'>
         <MobileOyinlar />
         <div className='props__items'>
-            <Link style={{textDecoration: 'none', color: 'black'}} to={'/button'}>
+            <Link style={{textDecoration: 'none', color: 'black'}} to={'/konstruktor'}>
                 <SizningConsntructor url={Constructor} title="Sizning Konstruktoringiz" text="Endi tarifingiz qanday bo'lishini, siz hal qilasiz!" btn="Batafsil"/>
             </Link>
-            <SizningConsntructor url={Simcarta} title="Raqamni oling" text="Sizga tez va qulay tarzda chiroyli xonani tanlashni taklif qilamiz." btn="Nomerni tanlang"/>
-            <SizningConsntructor url={Plastik} title="Hisobni to'ldirish" text="Mobil raqamingiz hisobini onlayn toʼldiring" btn="To'dirish"/>
-            <SizningConsntructor url={Sumka} title="Internet paketlari" text="Sizning xizmatingizda 14 ta internet toʼplami." btn="Paketni tanlang"/>
-            <SizningConsntructor url={Sim} title="eSIM" text="«eSIM» xizmatini bepul ulang!" btn="Ulanish"/>
-            <SizningConsntructor url={World} title="Qamrov hududi va ofislar" text="Ofis manzillari va qamrov xaritasini koʼring" btn="Batafsil"/>
+            <Link style={{textDecoration: 'none', color: 'black'}} to={'/raqamni-oling'}>
+                <SizningConsntructor url={Simcarta} title="Raqamni oling" text="Sizga tez va qulay tarzda chiroyli xonani tanlashni taklif qilamiz." btn="Nomerni tanlang"/>
+            </Link>
+            <Link style={{textDecoration: 'none', color: 'black'}} to={"/hisobni-to'ldirish"}>
+                <SizningConsntructor url={Plastik} title="Hisobni to'ldirish" text="Mobil raqamingiz hisobini onlayn toʼldiring" btn="To'dirish"/>
+            </Link>
+            <Link style={{textDecoration: 'none', color: 'black'}} to={'/internet-paketlar'}>
+                <SizningConsntructor url={Sumka} title="Internet paketlari" text="Sizning xizmatingizda 14 ta internet toʼplami." btn="Paketni tanlang"/>
+            </Link>
+            <Link style={{textDecoration: 'none', color: 'black'}} to={'/e-sim'}>
+                <SizningConsntructor url={Sim} title="eSIM" text="«eSIM» xizmatini bepul ulang!" btn="Ulanish"/>
+            </Link>
+            <Link style={{textDecoration: 'none', color: 'black'}} to={'/qamrov-hududi'}>
+                <SizningConsntructor url={World} title="Qamrov hududi va ofislar" text="Ofis manzillari va qamrov xaritasini koʼring" btn="Batafsil"/>
+            </Link>
         </div>
         <div style={{paddingTop: '20px'}}>
             <Ommabop />

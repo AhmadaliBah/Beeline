@@ -233,3 +233,9 @@
         width: 200px;
     }
 }
+
+@media (max-width: 840px){
+    .language{
+        display: none;
+    }
+}

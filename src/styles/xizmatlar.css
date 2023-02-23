@@ -1,0 +1,32 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+@font-face {
+    font-family: "Druk";
+    src: url("../assets/FontsFree-Net-Druk-Wide-Bold.ttf");
+}
+
+.xizmatlar__items{
+    /* width: 1130px;    */
+    margin: 0;
+}
+
+.xizmatlar__subtitle{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Druk';
+    padding-bottom: 20px;
+}
+
+.xizmatlar__title2{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Druk';
+    cursor: pointer;
+}
+
+.xizmatlar__title2:hover{
+    color: #ffc107;
+}
+
+.xizmatlar__items1{
+    width: 1100px;
+}

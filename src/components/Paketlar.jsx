@@ -2,7 +2,7 @@ import React from 'react'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import '../styles/tariflar.css'
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 const Paketlar = () => {
 
     const handleDragStart = (e) => e.preventDefault();
@@ -216,7 +216,9 @@ const Paketlar = () => {
 return (
     <div>
             <div className="router router1">
-                <h5 className="router__1">Bosh sahifa</h5>
+                <Link to={'/'}>
+                    <h5 className="router__1">Bosh sahifa</h5>
+                </Link>
                 <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
                 <h5 className="router__2">Internet paketlar</h5>
             </div>

@@ -16,21 +16,24 @@ import {
 import Logo from "../assets/icons2/main-logo.svg";
 import Nomer from "./Nomer";
 import NomerBor from "./NomerBor";
+import Cross from '../assets/icons2/cross-circle.svg'
 
 const Kirish = () => {
   const { isOpen, onOpen, onClose} = useDisclosure();
   const [state, setState] = useState("");
-  function Continue(){
-    if(state.length>0){
-      <Nomer />
-    }else{
-      <NomerBor />
+
+    function Continue(){
+      if(setState.length<0){ 
+        setState(<NomerBor />)
+      }else if(setState.length>0){
+        setState(<Nomer />)
+      }
     }
-  }
+
   return (
     <div>
       <a className="nav__btn" onClick={onOpen}>
-        <img src="https://beeline.uz/binaries/content/assets/js/nd/img/icons/key.svg"></img>
+        <img src="https://beeline.uz/binaries/content/assets/js/nd/img/icons/key.svg" style={{width: '20px', height: '9px'}}></img>
         <span className="kirish">Kirish</span>
       </a>
       <Modal isOpen={isOpen} onClose={onClose}>
@@ -64,24 +67,12 @@ const Kirish = () => {
             <p style={{ paddingTop: "20px", paddingBottom: "10px" }}>
               Telefon raqami
             </p>
-            <InputGroup onChange={(e) => setState(e.target.value)}>
+            <InputGroup onChange={(e) => Continue(e.target.value)}>
               <InputLeftAddon children="+998" />
               <Input type="tel" />
             </InputGroup>
-            <Button
-                variant="solid"
-                colorScheme="yellow"
-                borderRadius="50px"
-                w="100%"
-                mt='5'
-                onClick={() => Continue()}
-            >
-        Davom etish
-      </Button>
-            {/* <NomerBor />
-            <Nomer /> */}
             <div>
-              
+              {state}
             </div>
           </ModalBody>
           <ModalFooter>
@@ -89,7 +80,7 @@ const Kirish = () => {
         </ModalContent>
       </Modal>
     </div>
-  );
-};
+  )
+}
 
 export default Kirish;

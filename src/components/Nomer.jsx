@@ -8,6 +8,7 @@ import {
   ModalCloseButton,
   useDisclosure,
   Button,
+  Input
 } from "@chakra-ui/react";
 import Cross from '../assets/icons2/cross-circle.svg'
 
@@ -15,16 +16,16 @@ const Nomer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div>
-      <Button
+              <Button
         onClick={onOpen}
         variant="solid"
         colorScheme="yellow"
         borderRadius="50px"
         w="100%"
         mt='5'
-      >
+        >
         Davom etish
-      </Button>
+        </Button>
       <Modal
         isCentered
         onClose={onClose}
@@ -38,7 +39,7 @@ const Nomer = () => {
           <img className="cross" src={Cross} alt="" />
           </div>
           <ModalBody>
-            <h1 className="cross__text">Siz kiritilga raqam topilmadi</h1>
+            <h1 className="cross__text">Siz kiritilgan raqam topilmadi</h1>
           </ModalBody>
           <ModalFooter justifyContent="center" display="flex">
             <Button width="100px" justifyContent="center" display="flex" backgroundColor="black" borderRadius="50px" color="white" mr={3} onClick={onClose}>

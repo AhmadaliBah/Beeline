@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Druk';
+    src: url('../assets/FontsFree-Net-Druk-Wide-Bold.ttf');
+}
+
+.sayohat{
+    background-color: white;
+    padding: 36px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.sayohat__title{
+    font-family: "Druk";
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sayohat__input{
+    border: 1px solid #CBCBCB;
+    outline: none;
+    padding: 11px 10px;
+    width: 442px;
+    border-radius: 8px;
+}
+
+.input__box{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.countries__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px 0;
+    width: 1000px;
+}
+
+.country__box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.country__box:hover{
+    opacity: 0.8;
+}
+
+.qozogiston{
+    width: 62px;
+    height: 62px;
+}
+
+.accordions{
+    padding: 36px 20px;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.accordions__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    padding: 0 15px;
+    padding-bottom: 30px;
+}
